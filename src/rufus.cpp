@@ -52,8 +52,8 @@
 #include "../res/grub/grub_version.h"
 #include "../res/grub2/grub2_version.h"
 
-#define rufus    0
-#define appstore 1
+int rufus = 0;
+const int appstore = 1;
 
 enum bootcheck_return {
 	BOOTCHECK_PROCEED = 0,

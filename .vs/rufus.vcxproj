@@ -212,6 +212,8 @@
       <DisableSpecificWarnings>4091;28251;28252;28253;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <Optimization>Disabled</Optimization>
       <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
     </ClCompile>
     <Link>
       <AdditionalDependencies>advapi32.lib;comctl32.lib;comdlg32.lib;crypt32.lib;gdi32.lib;ole32.lib;setupapi.lib;shell32.lib;shlwapi.lib;wintrust.lib;psapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
@@ -326,6 +328,8 @@
       <UndefinePreprocessorDefinitions>NDEBUG</UndefinePreprocessorDefinitions>
       <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
       <StringPooling>true</StringPooling>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
     </ClCompile>
     <Link>
       <AdditionalDependencies>advapi32.lib;comctl32.lib;comdlg32.lib;crypt32.lib;gdi32.lib;ole32.lib;setupapi.lib;shell32.lib;shlwapi.lib;wintrust.lib;psapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
@@ -355,8 +359,8 @@
     <ClCompile Include="..\src\pki.c" />
     <ClCompile Include="..\src\process.c" />
     <ClCompile Include="..\src\re.c" />
-    <ClCompile Include="..\src\rufus.c" />
     <ClCompile Include="..\src\checksum.c" />
+    <ClCompile Include="..\src\rufus.cpp" />
     <ClCompile Include="..\src\smart.c" />
     <ClCompile Include="..\src\stdfn.c" />
     <ClCompile Include="..\src\stdio.c" />
